@@ -1,0 +1,8 @@
+Jaseci 1.4.0.16
+python3.10-dev
+g++
+build-essential
+pkg-config
+cmake
+
+jac_nlp   (pip install "jac_nlp[all]")
