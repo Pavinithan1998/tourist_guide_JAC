@@ -1,9 +1,11 @@
-node country; 
-
-node province{
+node state{
     has name;
 }
-node district{
+
+node state{
+    has name;
+}
+node state{
     has name;
 }
 node city{
@@ -27,6 +29,12 @@ edge province_belongs_to{
 
 edge place_belongs_to{
     has name;
+}
+
+edge connect_cities{
+    has distance;
+    has route_name;
+    has route_type;
 }
 
 
