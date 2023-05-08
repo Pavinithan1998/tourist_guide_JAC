@@ -1,0 +1,25 @@
+[
+    {
+        "context": "EU rejects German call to boycott British lamb",
+        "entities": [
+            {
+                "entity_value": "EU",
+                "entity_type": "ORG",
+                "start_index": 0,
+                "end_index": 2
+            },
+            {
+                "entity_value": "German",
+                "entity_type": "MISC",
+                "start_index": 11,
+                "end_index": 17
+            },
+            {
+                "entity_value": "British",
+                "entity_type": "MISC",
+                "start_index": 34,
+                "end_index": 41
+            }
+        ]
+    }
+]

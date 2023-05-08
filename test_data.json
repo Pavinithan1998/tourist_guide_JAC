@@ -1,0 +1,25 @@
+[
+    {
+        "context": "The former Soviet republic was playing in an Asian Cup finals tie for the first time",
+        "entities": [
+            {
+                "entity_value": "Soviet",
+                "entity_type": "MISC",
+                "start_index": 11,
+                "end_index": 17
+            },
+            {
+                "entity_value": "Asian",
+                "entity_type": "MISC",
+                "start_index": 45,
+                "end_index": 50
+            },
+            {
+                "entity_value": "Asian",
+                "entity_type": "MISC",
+                "start_index": 45,
+                "end_index": 50
+            }
+        ]
+    }
+]

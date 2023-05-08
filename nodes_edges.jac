@@ -2,12 +2,6 @@ node state{
     has name;
 }
 
-node state{
-    has name;
-}
-node state{
-    has name;
-}
 node city{
     has name;
     has city_category;
