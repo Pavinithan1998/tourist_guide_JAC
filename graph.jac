@@ -181,5 +181,23 @@ graph map{
         );
         north_central_province +[belongs_to(name="anuradhapura", parent="north_central")]+> anuradhapura_district;
 
+
+        kallady = spawn batticaloa_district +[place_belongs_to(name="kallady")]+> node::state(name = "kallady");
+        batticaloa_district +[place_belongs_to(name="kallady")]+> kallady;
+        kandy = spawn kandy_district +[place_belongs_to(name="kandy")]+> node::state(name = "kandy");
+        kandy_district +[place_belongs_to(name="kandy")]+> kandy;
+        colombo = spawn colombo_district +[place_belongs_to(name="colombo")]+> node::state(name = "colombo");
+        colombo_district +[place_belongs_to(name="colombo")]+> colombo;
+        galle = spawn galle_district +[place_belongs_to(name="galle")]+> node::state(name = "galle");
+        galle_district +[place_belongs_to(name="kallady")]+> galle;
+
+
+        kandy <+[connect_cities(distance = 250.02, route_name = "A7", route_type = "highway")]+> kallady;
+        colombo <+[connect_cities(distance = 450.02, route_name = "A4", route_type = "motorway")]+> kallady;
+        galle <+[connect_cities(distance = 320.02, route_name = "A2", route_type = "highway")]+> kallady;
+        colombo <+[connect_cities(distance = 250.02, route_name = "A7", route_type = "highway")]+> kandy;
+        galle <+[connect_cities(distance = 250.02, route_name = "A7", route_type = "highway")]+> kandy;
+        galle <+[connect_cities(distance = 250.02, route_name = "A7", route_type = "highway")]+> colombo;
+
     }
 }
